@@ -13,6 +13,7 @@ public class Retroizer : MonoBehaviour {
         _480x270,
         _640x360,
         _960x540,
+        _Custom
     }
 
     public enum Orientation
@@ -36,6 +37,11 @@ public class Retroizer : MonoBehaviour {
     RawImage rawImage;
     [SerializeField]
     Material m_Material;
+
+    [SerializeField]
+    uint m_CustomWidth = 240;
+    [SerializeField]
+    uint m_CustomHeight = 240;
 
     public void SetResolution(Resolution newResolution)
     {
@@ -94,6 +100,11 @@ public class Retroizer : MonoBehaviour {
             case Resolution._480x270: width = 480; height = 270; break;
             case Resolution._640x360: width = 640; height = 360; break;
             case Resolution._960x540: width = 960; height = 540; break;
+            case Resolution._Custom:
+                if(m_CustomWidth == 0) m_CustomWidth = 1;
+                if(m_CustomHeight == 0) m_CustomHeight = 1;
+                width = (int)m_CustomWidth; height = (int)m_CustomHeight;
+                break;
         }
 
         if(m_Orientation == Orientation.Portrait)

@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Retroizer))]
 public class SwitchModes : MonoBehaviour
 {
     public KeyCode SwitchCode = KeyCode.Space;
-
+    public Text ShowResolution;
     private void Start()
     {
         Application.targetFrameRate = 15;
+        ShowResolution.text = GetComponent<Retroizer>().resolution.ToString();
     }
 
     private void Update()
@@ -18,6 +20,7 @@ public class SwitchModes : MonoBehaviour
         {
             var c = GetComponent<Retroizer>();
             c.resolution = (Retroizer.Resolution)(((int)c.resolution+1) % 5);
+            ShowResolution.text = GetComponent<Retroizer>().resolution.ToString();
         }
 
     }

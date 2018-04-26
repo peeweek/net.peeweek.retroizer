@@ -16,7 +16,9 @@ public class RetroizerEditor : Editor {
         AddProperty("m_TargetCamera");
         AddProperty("m_Resolution");
         AddProperty("m_Orientation");
-        
+        AddProperty("m_CustomWidth");
+        AddProperty("m_CustomHeight");
+
     }
 
     private void AddProperty(string name)
@@ -36,6 +38,11 @@ public class RetroizerEditor : Editor {
         serializedObject.Update();
         EditorGUI.BeginChangeCheck();
         EditorGUILayout.PropertyField(m_Properties["m_Resolution"], false);
+        if(m_Properties["m_Resolution"].intValue == (int)Retroizer.Resolution._Custom)
+        {
+            EditorGUILayout.PropertyField(m_Properties["m_CustomWidth"], false);
+            EditorGUILayout.PropertyField(m_Properties["m_CustomHeight"], false);
+        }
         EditorGUILayout.PropertyField(m_Properties["m_Orientation"], false);
         EditorGUILayout.PropertyField(m_Properties["m_TargetCamera"], false);
 
