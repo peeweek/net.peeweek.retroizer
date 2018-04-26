@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 6509edde165b8ee41a94fc5450dccd1f
+timeCreated: 1524169276
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ID104
+    100004: ID114
+    100006: ID124
+    100008: ID132
+    100010: ID140
+    100012: ID148
+    100014: ID156
+    100016: ID166
+    100018: ID174
+    100020: ID182
+    100022: ID80
+    100024: ID88
+    100026: ID96
+    400000: //RootNode
+    400002: ID104
+    400004: ID114
+    400006: ID124
+    400008: ID132
+    400010: ID140
+    400012: ID148
+    400014: ID156
+    400016: ID166
+    400018: ID174
+    400020: ID182
+    400022: ID80
+    400024: ID88
+    400026: ID96
+    2100000: mc_grass02
+    2100002: mc_rock02
+    2100004: mc_comb_block01
+    2100006: mc_comb_both01
+    2100008: mc_dokan02
+    2100010: mt_water
+    2100012: mc_comb_roadA
+    2100014: mc_comb_roadB
+    2100016: mc_comb_castleA
+    2100018: mt_flagA
+    2100020: mc_comb_castleB
+    2100022: mc_spot01
+    2100024: ef_glideboard
+    2100026: mc_comb_flower01
+    2300000: //RootNode
+    2300002: ID104
+    2300004: ID114
+    2300006: ID124
+    2300008: ID132
+    2300010: ID140
+    2300012: ID148
+    2300014: ID156
+    2300016: ID166
+    2300018: ID174
+    2300020: ID182
+    2300022: ID80
+    2300024: ID88
+    2300026: ID96
+    3300000: //RootNode
+    3300002: ID104
+    3300004: ID114
+    3300006: ID124
+    3300008: ID132
+    3300010: ID140
+    3300012: ID148
+    3300014: ID156
+    3300016: ID166
+    3300018: ID174
+    3300020: ID182
+    3300022: ID80
+    3300024: ID88
+    3300026: ID96
+    4300000: Gctr_MarioCircuit
+    4300002: ID80
+    4300004: ID88
+    4300006: ID96
+    4300008: ID104
+    4300010: ID114
+    4300012: ID124
+    4300014: ID132
+    4300016: ID140
+    4300018: ID148
+    4300020: ID156
+    4300022: ID166
+    4300024: ID174
+    4300026: ID182
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ef_glideboard
+    second: {fileID: 2100000, guid: e59d5f13f2b6d994a9ce9a5ec29684b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_block01
+    second: {fileID: 2100000, guid: 47147483745dd604bb2ccb782c4c2248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_both01
+    second: {fileID: 2100000, guid: e7b579553f26a294a86ab18bb462e779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_castleA
+    second: {fileID: 2100000, guid: 9e68075aa7477d64f8db0287f2a9eff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_castleB
+    second: {fileID: 2100000, guid: 42f2910310f66994489be40bf44b3cee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_flower01
+    second: {fileID: 2100000, guid: 56330bf5dcba5a74b9928af61de1f78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_roadA
+    second: {fileID: 2100000, guid: 7e153c7b9bd748c47a9f5cf60911ea10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_comb_roadB
+    second: {fileID: 2100000, guid: d743a1a045c4eec409a6036bdf4ad98a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_dokan02
+    second: {fileID: 2100000, guid: f45d53da881795d41883315af74a347a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_grass02
+    second: {fileID: 2100000, guid: 35662d5155f6be740ad1af45318aa243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_rock02
+    second: {fileID: 2100000, guid: 88e9f82c679f21746a3fc8a139f0e8f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mc_spot01
+    second: {fileID: 2100000, guid: 41ca2ab0cf07de74badefa43907f5f8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_flagA
+    second: {fileID: 2100000, guid: 4239a3121b2fda94b86de75620108d93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_water
+    second: {fileID: 2100000, guid: 65ceb06215182cd459a65d2319a646e2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
