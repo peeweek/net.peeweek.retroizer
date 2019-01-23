@@ -1,0 +1,7 @@
+{
+    "name": "net.peeweek.retroizer",
+    "displayName": "Retroizer",
+    "version": "0.0.1-preview",
+    "unity": "2018.3",
+    "description": "Retro renderer for your game"
+}
